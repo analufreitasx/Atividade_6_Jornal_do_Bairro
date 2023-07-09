@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+header{
+    padding: 0;
+    background-color:black;
+    transition: background-color 1s ease-in;
+}
+header:hover{
+    background-color:rgb(177, 123, 228);
+}
+
+#cabeçalho{
+    display:flex;
+    justify-content:flex-start;
+    animation:deslocar 4s ease-in;
+}
+@keyframes deslocar{
+    0%{transform: translateX(-100%)}
+
+    100%{transform: translateX(0)}
+}
+#logo{
+    width:300px;
+    display: block;
+    margin:0%;
+}
+#icon{
+    color:white;
+    margin-bottom:0%;
+    margin-top: 130px;
+    font-size: 70px;
+    font-family:Ailerons Regular; 
+}
+#Menu{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul.menu{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:5px;
+}
+a{
+    text-decoration: none; 
+    padding:20px;
+    font-family: Agency FB;
+    font-size: 25px;
+    color:rgb(177, 123, 228);
+}
+a:hover{
+    cursor: pointer;
+    color:purple;
+    background-color: black;
+}
+main{
+    margin:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+section{
+    padding:10px;
+    height:650px;
+    width: 400px;
+}
+.imagens{
+    width:400px;
+}
+.news{
+    font-family: Ailerons Regular;
+    background-color: rgb(206, 206, 206);
+    
+}
+h2{
+    font-family: Goudy Old Style;
+}
+p{
+    font-family: Lucida Fax;
+    font-size: 13px;
+    color:black;
+    margin:4px;
+    line-height:1.7;
+}
+.links{
+    font-family: Lucida Fax;
+    font-size: 13px;
+    text-decoration:underline;
+    padding:0;
+
+}
+.links:hover{
+    cursor: pointer;
+    transition:.6s ease all;
+    color:grey;
+    background-color: black;
+}
+.links:link{
+    color:rgb(177, 123, 228);
+}
+.links:visited{
+    color: grey;
+}
+footer{
+    background-color: rgb(177, 123, 228);
+    padding: 0; 
+    margin-top: 250px;
+    height:190px;
+}
+#rodapé{
+    font-family: High Tower Text;
+    margin:100px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h4{
+    font-size:15px;
+}
